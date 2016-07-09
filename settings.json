@@ -5,6 +5,7 @@
      "files.trimTrailingWhitespace": true,
 
      "editor.wrappingColumn": 120,
+     "workbench.editor.showTabs": false,
 
      "files.exclude": {
          "**/.git": true,
