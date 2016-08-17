@@ -1,0 +1,10 @@
+{
+    "extends": "google",
+    "installedESLint": true,
+     "rules": {
+         "indent": ["error", 4, { "SwitchCase": 1 }],
+         "max-len": ["warn", 120],
+         // it is easier to set it in eslint config than set up VS Code properly in order to not to put spaces
+         "object-curly-spacing": ["error", "always"]
+    }
+}
