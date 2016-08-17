@@ -6,6 +6,10 @@
 
      "editor.wrappingColumn": 120,
      "workbench.editor.showTabs": false,
+     "files.eol": "\n",
+
+     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
 
      "files.exclude": {
          "**/.git": true,
