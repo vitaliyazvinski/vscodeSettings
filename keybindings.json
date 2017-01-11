@@ -1,3 +1,7 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+{ "key": "ctrl+alt+u",           "command": "editor.action.insertCursorAbove",
+                                     "when": "editorTextFocus" },
+{ "key": "ctrl+alt+d",         "command": "editor.action.insertCursorBelow",
+                                     "when": "editorTextFocus" },
 ]
