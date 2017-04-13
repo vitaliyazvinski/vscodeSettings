@@ -2,9 +2,9 @@
  {
      //"files.autoSave": "afterDelay",
      //"files.autoSaveDelay": 1000,
-     "files.trimTrailingWhitespace": true,
+     "files.trimTrailingWhitespace": false,
 
-     "editor.wrappingColumn": 120,
+     "editor.wordWrap": 120,
      "workbench.editor.showTabs": false,
      "files.eol": "\n",
 
@@ -14,8 +14,14 @@
      "files.exclude": {
          "**/.git": true,
          "**/.DS_Store": true
-     }
-,
-"typescript.check.tscVersion": false,
-"git.confirmSync": false
+     },
+    "typescript.check.tscVersion": false,
+    "git.confirmSync": false,
+
+    "jshint.options": {
+        "esversion" : 6
+    },
+
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "window.zoomLevel": 0
 }
